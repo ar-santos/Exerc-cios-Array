@@ -7,7 +7,7 @@ const listaDePalavras = [
 ]
 
 const listaPalavras = listaDePalavras.filter(Palavras => {
-    if(Palavras == 'Professor de Inglês') {
+    if(Palavras.includes("Inglês")) {
         return listaDePalavras
     }
 })
