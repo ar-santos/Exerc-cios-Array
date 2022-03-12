@@ -6,10 +6,10 @@ const listaDePalavras = [
     'Professor de Python'
 ]
 
-const listaPalavras = listaDePalavras.filter(Palavras => {
-    if(Palavras !== 'Professor de Inglês') {
-        return listaDePalavras
+const listaPalavraSemIngles= listaDePalavras.filter(frase => {
+    if(!frase.includes("Inglês")) {
+        return frase
     }
 })
 
-export default listaPalavras
+export default listaPalavraSemIngles
