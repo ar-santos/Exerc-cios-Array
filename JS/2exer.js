@@ -1,15 +1,16 @@
 const listaDePalavras = [
-    'Professor de Inglês',
     'Professor de CSS',
     'Professor de HTML',
     'Professor de JavaScript',
-    'Professor de Python'
+    'Professor de Python',
+    'Professor de Inglês',
 ]
 
-const listaPalavras = listaDePalavras.filter(Palavras => {
-    if(Palavras.includes("Inglês")) {
-        return listaDePalavras
+const listaPalavraComIngles = listaDePalavras.filter( frase => {
+    if(frase.includes("Inglês")) {
+        return frase 
     }
 })
 
-export default listaPalavras
+
+export default listaPalavraComIngles
