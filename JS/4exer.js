@@ -1,12 +1,19 @@
-let listaDeCarros1 = ['Fusca', 'Opala', 'Gol']
-let listaDeCarros2 = ['Celta', 'Honda Fit', 'Corolla']
+var listaDeCarros1 = ['Fusca', 'Opala', 'Gol']
+var listaDeCarros2 = ['Celta', 'Honda Fit', 'Corolla']
 
-// const juntarArray = listaDeCarros2.push(juntar =>{
-//     if(juntar.forEach(listaDeCarros1)) {
-//         return juntar
-//     }
-// })
+/**
+ Construa uma função que vai usar a função forEach e Push para adiciona
+ os carros da lista 2 na lista 1 e retornar uma nova lista de carros
+ */
 
-let juntarArray = [...listaDeCarros1, ...listaDeCarros2];
+const concatenar = (array1, array2) => {
+    let NovaArray = []
+    array2.forEach( item => {
+        // array1.push(item)
+        NovaArray.push(item)         
+    })
+    return NovaArray
+}
 
-export default juntarArray
+let arrayModificador = concatenar(listaDeCarros1,listaDeCarros2)
+export default arrayModificador
