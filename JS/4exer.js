@@ -7,12 +7,10 @@ var listaDeCarros2 = ['Celta', 'Honda Fit', 'Corolla']
  */
 
 const concatenar = (array1, array2) => {
-    let NovaArray = []
     array2.forEach( item => {
-        // array1.push(item)
-        NovaArray.push(item)         
+        array1.push(item)         
     })
-    return NovaArray
+    return array1
 }
 
 let arrayModificador = concatenar(listaDeCarros1,listaDeCarros2)
