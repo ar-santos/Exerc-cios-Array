@@ -12,5 +12,4 @@ const listaPalavraComIngles = listaDePalavras.filter( frase => {
     }
 })
 
-
 export default listaPalavraComIngles
