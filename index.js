@@ -5,7 +5,11 @@ import arrayModificador from './JS/4exer.js'
 import listaPalavraSem15 from './JS/exer1.1.js'
 import marcasDeRoupasSomenteLascoste from './JS/exer2.1.js'
 import somarOsValores from './JS/exer3.1.js'
-import arrayModificador1 from './JS/exer4.1.js'
+import arrayModificador2 from './JS/exer4.1.js'
+import listaDeNumerosSemDez from './JS/exer1.2.js'
+import listaDeNumerosSomenteDez from './JS/exer2.2.js'
+import multiplicarOsNumeros from './JS/exer3.2.js'
+import arrayModificador3 from './JS/exer4.2.js'
 
 console.log(listaPalavraSemIngles)
 console.log(listaPalavraComIngles)
@@ -14,7 +18,11 @@ console.log(arrayModificador)
 console.log(listaPalavraSem15)
 console.log(marcasDeRoupasSomenteLascoste)
 console.log(somarOsValores)
-console.log(arrayModificador1)
+console.log(arrayModificador2)
+console.log(listaDeNumerosSemDez)
+console.log(listaDeNumerosSomenteDez)
+console.log(multiplicarOsNumeros)
+console.log(arrayModificador3)
 
 
 // EXEMPLOS
