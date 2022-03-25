@@ -10,6 +10,10 @@ import listaDeNumerosSemDez from './JS/exer1.2.js'
 import listaDeNumerosSomenteDez from './JS/exer2.2.js'
 import multiplicarOsNumeros from './JS/exer3.2.js'
 import arrayModificador3 from './JS/exer4.2.js'
+import listaDoAlfabetoSemA from './JS/exer1.3.js'
+import SomenteALetraA from './JS/exer2.3.js'
+import somaOsNumeros from './JS/exer3.3.js'
+import arrayJuntos from './JS/exer4.3.js'
 
 console.log(listaPalavraSemIngles)
 console.log(listaPalavraComIngles)
@@ -23,7 +27,10 @@ console.log(listaDeNumerosSemDez)
 console.log(listaDeNumerosSomenteDez)
 console.log(multiplicarOsNumeros)
 console.log(arrayModificador3)
-
+console.log(listaDoAlfabetoSemA)
+console.log(SomenteALetraA)
+console.log(somaOsNumeros)
+console.log(arrayJuntos)
 
 // EXEMPLOS
 
