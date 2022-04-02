@@ -6,6 +6,9 @@ const listaDePalavras = [
     'Professor de Python'
 ]
 
+ // index < lista.length
+ // O index é menor que o tamanho da lista?
+
 const minhFuncao =( lista, palavra ) => {
     let valorAporcurar = palavra.toUpperCase()
     let valorEncontrado = []
@@ -14,7 +17,7 @@ const minhFuncao =( lista, palavra ) => {
 
         let valorDaLista = lista[index].toUpperCase()
         if(valorDaLista.includes(valorAporcurar)) {
-            valorEncontrado = lista[index];        
+            valorEncontrado.push(lista[index]);        
         }        
     }
     return valorEncontrado

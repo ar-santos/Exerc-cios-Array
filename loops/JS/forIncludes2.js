@@ -6,12 +6,14 @@ const listaDePalavras = [
     'Professor de Python'
 ]
 
-const minhFuncao = listaDePalavras.filter(lista => {
+const minhFuncao = (lista) => {
     for (let index = 0; index < lista.length; index++) {
         if(!lista.includes('Inglês')) {
             return lista;        
         }        
     }
-})
+}
 
-export default minhFuncao
+let retornoDaFuncao = minhFuncao('Inglês')
+
+export default retornoDaFuncao
