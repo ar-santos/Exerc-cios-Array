@@ -6,23 +6,20 @@ const listaDePalavras = [
     'Professor de Python'
 ]
 
- // index < lista.length
- // O index é menor que o tamanho da lista?
-
-const minhFuncao =( lista, palavra ) => {
+const funcaoSemIngles =( lista, palavra ) => {
     let valorAporcurar = palavra.toUpperCase()
     let valorEncontrado = []
 
     for (let index = 0; index < lista.length; index++) {
 
         let valorDaLista = lista[index].toUpperCase()
-        if(valorDaLista.includes(valorAporcurar)) {
+        if(!valorDaLista.includes(valorAporcurar)) {
             valorEncontrado.push(lista[index]);        
         }        
     }
     return valorEncontrado
 }
 
-const retornoMinhaFuncao = minhFuncao(listaDePalavras,"inglês")
+const retornoMinhaFuncaoSemIngles= funcaoSemIngles(listaDePalavras,"inglês")
 
-export default retornoMinhaFuncao
+export default retornoMinhaFuncaoSemIngles
