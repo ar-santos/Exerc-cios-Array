@@ -1,7 +1,7 @@
 const alfabeto = ['A','B','C','D','E']
 
-const listaDoAlfabetoSomenteA = (lista, palavra) => {
-    let valorAporcurar = palavra.toUpperCase()
+const listaDoAlfabetoSomenteA = (lista, letra) => {
+    let valorAporcurar = letra.toUpperCase()
     let valorEncontrado = []
 
     for (let index = 0; index < lista.length; index++) {
